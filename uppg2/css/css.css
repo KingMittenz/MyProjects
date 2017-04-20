@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #1D2B64; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1D2B64 , #F8CDDA); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1D2B64 , #F8CDDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+  color: #ecf0f1;
+  text-shadow: 4px 3px black;
+  text-align: center;
+  font-family: 'Sansita', sans-serif;
+  margin-top: 15%;
+}
+table{
+  display: table;
+  background: #fff;
+  border-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  box-shadow: 10px 6px 15px black;
+  border-spacing: 0px;
+  min-height: 340px;
+  min-width: 700px;
+}
+tr, td{
+  margin-right: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+th{
+  background-color: #34495e;
+  color: white;
+}

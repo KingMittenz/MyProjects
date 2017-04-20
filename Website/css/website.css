@@ -1,0 +1,166 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
+* {
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  background: #000;
+  font-family: 'Ravi Prakash', cursive;
+  margin: 0 auto 60px;
+}
+/*NAVIGATION*/
+nav {
+  background: #fff;
+  height: 100%;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+}
+nav a {
+  color: blue;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease .5s;
+}
+nav a:hover {
+  background: red;
+  color: #fff;
+}
+
+/*HERO*/
+header {
+  background: url('../img/header-background.jpg') no-repeat center bottom;
+  background-size: cover !important;
+  height: 600px;
+  text-align: center;
+  position: relative;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.about {
+    padding-top: 30px;
+    background: url('../img/blue.jpg') no-repeat center top;
+    height: 600px;
+}
+.contact {
+  background: url('../img/city-skyline.jpg') no-repeat center bottom;
+  height: 400px;
+}
+header h1 {
+  color: red;
+  font-size: 48px;
+  margin: 0;
+}
+header h1 span {
+  border-bottom: 3px solid pink;
+}
+header a {
+  background: rgba(255, 192, 203, 0.9);
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 42px;
+  margin: 20px auto 0;
+  padding: 0 30px;
+  text-decoration: none;
+  transition: background ease .5s;
+}
+header a:hover {
+  background: blue;
+}
+section {
+  background: #ddd;
+  overflow: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+section h2 {
+  font-size: 32px;
+  margin: 0 auto 60px;
+}
+section div {
+  float: left;
+  padding: 0 15px;
+  width: 33.3%;
+}
+section .fa {
+  background: #e74c3c;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 72px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  /*Dimensions*/
+  line-height: 125px;
+  width: 125px;
+}
+section .fa.fa-heart {
+  color: red;
+}
+section .fa.fa-coffee {
+  color: brown;
+}
+section .fa.fa-globe {
+  color: green;
+}
+section .fa.fa-full {
+  color: orange;
+}
+section .fa.fa-super {
+  color: lightblue;
+}
+section div h3 {
+  margin: 20px auto 5px;
+}
+section div p {
+  margin: 0;
+}
+/*FORM*/
+form{
+  background: url('../img/dollar.jpg') no-repeat center;
+  padding: 40px 0;
+  text-align: center;
+}
+form input{
+  display: block;
+  margin: 10px auto;
+  border: 4px solid blue;
+  border-radius: 50px;
+  padding: 0 15px;
+  height: 40px;
+  width: 300px;
+  outline: none;
+}
+form textarea {
+  display: block;
+  margin: 10px auto;
+  border: 2px solid blue;
+  border-radius: 30px;
+  padding: 0 15px;
+  line-height: 24px;
+  text-align: left;
+}
+form .button {
+  background: green;
+  color: #fff;
+}
+/*FOOTER*/
+footer {
+  background: #bd00c7;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}

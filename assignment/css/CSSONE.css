@@ -1,0 +1,107 @@
+@import url("");
+*{
+  box-sizing: border-box;
+}
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+  background: #000;
+  margin: 0 auto 60px;
+  font-family: 'Aref Ruqaa', serif;
+}
+/*navigation*/
+nav{
+  background: #fff;
+  height: 100%;
+  /*fonts*/
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+}
+nav a{
+  padding: 0 40px;
+  display: inline-block;
+  color: darkred;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease .5s;
+}
+nav a:hover{
+  background: grey;
+  color: red;
+  border-radius: 30px;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header{
+  background: url('../jpeg/dollar.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  height: 680px;
+  position: relative;
+}
+header h1 span {
+  border-bottom: 6px solid black;
+}
+header h1{
+  color: #red;
+  font-size: 70px;
+  margin: 0;
+  text-transform: uppercase;
+}
+header a{
+  color: red;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 5px;
+  margin: 20px;
+}
+header a:hover{
+  background: #000;
+  color: #fff;
+  border-radius: 60px;
+  transition: all ease 1s;
+}
+section {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  overflow: auto;
+}
+section h2 {
+  margin: 0;
+  color: red;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text size: 80px;
+}
+section div {
+  float: left;
+  width: 50%;
+  padding: 0 15px;
+}
+section .fa{
+  background: #8e44ad;
+  border-radius: 50%;
+  color: #95a5a6;
+  font-size: 80px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.50);
+  line-height: 125px;
+  width: 125px;
+}
+/*footer*/
+footer{
+  background: grey;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

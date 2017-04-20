@@ -1,0 +1,30 @@
+body{
+  background: #00bf8f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00bf8f , #001510); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00bf8f , #001510); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+div{
+  background: #ecf0f1;
+  /*rounds the corner*/
+  /*sets border*/
+  border: 15px dashed #9b59b6;
+  border-radius: 10px;
+  /*sets it in the center and pushes down 50px*/
+  margin: 50px auto;
+  line-height: 480px;
+  /*puts the text in the center*/
+  text-align: center;
+  /*dimensions*/
+  width: 640px;
+  height: 480px;
+}
+div h1{
+  /*sets text color */
+  color: #c0392b;
+  /*sets the font of the text*/
+  font-family: 'Ravi Prakash', cursive;
+  /*sets the font size*/
+  font-size: 100px;
+  /*sets margain*/
+  margin: 0;
+}

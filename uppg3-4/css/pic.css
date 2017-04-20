@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #0B486B; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0B486B , #F56217); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0B486B , #F56217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+}
+nav a{
+  text-decoration: none;
+  display: inline-block;
+  color: pink;
+  font-size: 34px;
+  background: black;
+}
+nav a:hover{
+  background: white;
+  transition: .8s;
+}
+.picture-about{
+  border: 2px solid gold;
+  margin-top: 10px;
+  background: black;
+  padding: 8px 8px;
+  max-width: 350px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-text{
+  color: white;
+  text-align: center;
+}
+.picture{
+  background: white;
+  border: 2px solid gold;
+
+}
+.pic{
+  max-width: 400px;
+  max-height: 300px;
+  min-width: 400px;
+  min-height: 300px;
+  padding: 4px 4px 4px 4px;
+}
